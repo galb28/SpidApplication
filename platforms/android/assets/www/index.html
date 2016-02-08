@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <!-- START Meta Tags !-->
+            <meta name="msapplication-tap-highlight" content="no">
+            <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <!-- END Meta tags !-->
+
+        <!-- START CSS !-->
+
+            <!-- Custom !-->
+            <link rel="stylesheet" type="text/css" href="css/Base.css">
+
+            <!-- START Phonon !-->
+                <link rel="stylesheet" href="css/phonon/phonon-base.css" />
+                <link rel="stylesheet" href="css/phonon/components/dialogs.css" />
+                <link rel="stylesheet" href="css/phonon/components/preloaders.css" />
+            <!-- END Phonon !-->
+
+        <!-- END CSS !-->
+    </head>
+
+    <body>
+
+        <!-- START Header !-->
+        <header class="header-bar">
+            <div class="center">
+            	<h1 class="title">ספיד - מחוייבות אישית</h1>
+            </div>
+        </header>
+        <!-- END Header !-->
+
+        <!-- START Loading !-->
+        <div id="loading" class="loading hidden">
+            <div class="circle-progress active">
+                <div class="spinner"></div>
+            </div>
+        </div>
+        <!-- END Loading !-->
+
+        <!-- START Content !-->
+        <div class="content" id="content"></div>
+        <!-- END Content !-->
+
+        <!-- START Javascript !-->
+
+        <!-- Utils !-->
+        <script type="text/javascript" src="js/Utils.js"></script>
+
+        <!-- Cordova !-->
+        <script type="text/javascript" src="cordova.js"></script>
+
+        <!-- START Phonon !-->
+        <script src="js/phonon/phonon-core.js"></script>
+        <script src="js/phonon/components/dialogs.js"></script>
+        <!-- END phonon !-->
+
+        <!-- START Custom Scripts !-->
+        <script type="text/javascript" src="js/Stacktrace.js"></script> <!-- Only in development !-->
+        <script type="text/javascript" src="js/Browser.js"></script>
+        <script type="text/javascript" src="js/Location.js"></script>
+        <script type="text/javascript" src="js/Declerations.js"></script>
+        <script type="text/javascript" src="js/Vue.js"></script>
+
+        <!-- Pages !-->
+        <div id="pages_scripts">
+            <script type="text/javascript" src="js/App.js"></script>
+        </div>
+        <!-- END Custom Scripts !-->
+        <!-- END Javascript !-->
+
+    </body>
+</html>

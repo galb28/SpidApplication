@@ -1,0 +1,33 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.hermes.spid"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "io.hermes.spid"
+        },
+        "cordova-plugin-fastrde-checkgps": {
+            "PACKAGE_NAME": "io.hermes.spid"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "io.hermes.spid"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "io.hermes.spid"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.hermes.spid"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.hermes.spid"
+        }
+    },
+    "dependent_plugins": {}
+}
